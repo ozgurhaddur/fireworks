@@ -4,6 +4,10 @@
 Bu projede belirlenen amaç, bir mobil uygulama gerçekleştirimi ile beraber bulut ortamı kullanarak sorgu yapma yöntemlerini geliştirme ve google map api kullanılarak bir android platformunda uygulama gerçeklenmesidir. Dart(Flutter) yazılım dili kullanılmıştır.Verileri,kullanılacak programa çekmek için bulut ortamı olarak Firebase Firestore kullanılmıştır.Geliştirilecek mobil uygulamanın içinde 3 farklı sorgu kullanılmış olup backend ve frontend kısımlarının geliştirilmiştir. Kullanıcının uygulamayı kullanabileceği android platform ve yapılacak sorgular etrafında proje şekillenmiştir.
 
 # Yöntem
+
+Proje başlangıcında projede kullanılacak verilerin https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page sitesinden alınıp boyutunun küçültülerek Firebase Firestore'a aktarılması gerekmektedir.
+Dosya isimleri: `taxi+ zone lookup.csv` ve`yellow tripdata 2020-12.csv` şeklindedir.
+
 İlk adımda mobil uygulama arayüzü için giriş ve sorguların butonlarının olduğu ekran oluşturulmuştur. Dart(Flutter) sayesinde bu arayüz için gerekli butonlar, gerekli tasarımlarla 
 anasayfa oluşturulmuştur.Anasayfa şu şekildedir:
 
