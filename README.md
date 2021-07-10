@@ -6,7 +6,7 @@ Bu projede belirlenen amaç, bir mobil uygulama gerçekleştirimi ile beraber bu
 # Yöntem
 
 Proje başlangıcında projede kullanılacak verilerin https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page sitesinden alınıp boyutunun küçültülerek Firebase Firestore'a aktarılması gerekmektedir.
-Dosya isimleri: `taxi+ zone lookup.csv` ve`yellow tripdata 2020-12.csv` şeklindedir.
+Dosya isimleri: `taxi+ zone lookup.csv` ve `yellow tripdata 2020-12.csv` şeklindedir.
 
 İlk adımda mobil uygulama arayüzü için giriş ve sorguların butonlarının olduğu ekran oluşturulmuştur. Dart(Flutter) sayesinde bu arayüz için gerekli butonlar, gerekli tasarımlarla 
 anasayfa oluşturulmuştur.Anasayfa şu şekildedir:
